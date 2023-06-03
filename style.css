@@ -1,0 +1,106 @@
+
+/*h1
+{
+text-align: center;
+}*/
+
+#logo
+{
+	width: 70px;
+}
+
+body
+{
+	margin: 50px;
+}
+
+#searchBar
+{
+	margin: 40px;
+}
+
+input
+{
+border-radius: 10px;
+box-shadow: 2px 2px 5px;
+height: 40px;
+width: 400px;
+display: inline;
+padding: 5px;
+}
+
+input:focus
+{
+border-style: solid;
+}
+
+
+
+/*why does this margin not effect things? */
+#smallTiles
+{
+	margin: 40px;
+}
+
+
+.smallTileOuter
+{
+/* visibility: hidden; */
+background-color: grey;
+width: 200px;
+height: 200px;
+}
+
+.smallTileOuter:hover
+{
+	/* visibility: visible; */
+}
+
+.smallTileInner
+{
+box-shadow: 0px 0px 5px;
+width: 100px;
+height: 100px;
+border-radius: 5px;
+}
+
+#cards1, #cards2, #cards3
+{
+   margin: 20px;
+}
+
+/* this is my attempt to make the image turn darker on hover.  It only seems to
+turn light */
+.card
+{
+	width: 300px;
+	background-color: black;
+	box-shadow: 0px 0px 5px;
+
+	/*trying to display inline to get them side by side */
+	display: inline;
+}
+
+.card-body
+{
+	background-color: white;
+}
+
+#cards img:hover
+{
+	opacity: 0.5;
+}
+
+/****/
+
+/* why is this not working */
+.card-title:hover
+{
+	color:blue;
+}
+
+
+.card-columns
+{
+	margin: 20px 10%;
+}
